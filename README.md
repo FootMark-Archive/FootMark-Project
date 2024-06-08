@@ -50,19 +50,19 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
 
-### 3. 프로젝트 빌드
+### 3. QueryDSL 설정
+```bash
+./gradlew compileQuerydsl
+```
+
+### 4. 프로젝트 빌드
 ```bash
 ./gradlew clean build
 ```
 
-### 4. 프로젝트 실행
+### 5. 프로젝트 실행
 ```bash
 ./gradlew bootRun
-```
-
-### 5. QueryDSL 설정
-```bash
-./gradlew compileQuerydsl
 ```
 
 ### 6. API 테스팅 (Postman 및 Swagger 사용)
